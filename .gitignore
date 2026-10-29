@@ -1,0 +1,42 @@
+node_modules/
+.next/
+.data/
+.env*
+!.env.example
+test-results/
+playwright-report/
+*.tsbuildinfo
+.next-e2e/
+
+# Local operating-system files, logs and deployment state
+.DS_Store
+Thumbs.db
+*.log
+.vercel/
+coverage/
+output/
+next-env.d.ts
+
+# Credentials and private local configuration
+.npmrc
+.netrc
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.local.json
+*.local.yaml
+*.local.yml
+
+# Runtime exports and database backups (keep supabase/schema.sql tracked)
+backups/
+exports/
+*.sqlite*
+*.db
+*.dump
+*.sql.gz
+*.backup
+*.bak
